@@ -1,0 +1,45 @@
+.lookbook__grid {
+    margin: 0 auto;
+    width: min-content;
+  display: grid;
+    grid-template-columns:  min-content;
+    grid-template-rows: 1fr min-content;
+  grid-template-areas:
+    'small1 large1 small2'
+    'large2 large1 large3'
+    'large2 small3 large3';
+    border: springgreen solid 2px;
+    gap: 2rem;
+}
+
+.lookbook__image--large {
+  height: 500px;
+  width: 250px;
+}
+.lookbook__image--small {
+  height: 250px;
+  width: 250px;
+}
+
+.lookbook__image--large-1 {
+    grid-area: large1;
+}
+.lookbook__image--small-1 {
+  
+  grid-area: small1;
+}
+.lookbook__image--large-2 {
+    grid-area: large2;
+
+}
+.lookbook__image--small-2 {
+   grid-area: small2;
+;
+}
+.lookbook__image--large-3 {
+    grid-area: large3;
+}
+.lookbook__image--small-3 {
+    grid-area: small3;
+
+}

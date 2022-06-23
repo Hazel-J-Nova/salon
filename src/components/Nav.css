@@ -1,0 +1,21 @@
+
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+}
+
+.nav__nav-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__nav-bar--link{
+    display: inline-block;
+    padding: 0 2rem;
+}

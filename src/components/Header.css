@@ -1,0 +1,82 @@
+.header{
+    position: relative;
+}
+
+
+.header__main {
+    padding-bottom: 20rem;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../../public/multiColor.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 43%,
+    100% 100%,
+    75% 100%,
+    49% 96%,
+    0 90%,
+    0% 43%,
+    0 0
+  );
+
+  background-size: 100%;
+  border-bottom-right-radius: 30%;
+}
+
+.header__container {
+  margin-left: 10rem;
+  
+}
+
+.header__main-heading--span {
+  color: #fff;
+  display: block;
+  font-size: 6.5rem;
+  font-weight: 300;
+}
+
+.header__main-heading--paragraph {
+  color: #fff;
+    font-weight: 100;
+    font-size: 1.45rem ;
+    opacity: .5;
+}
+
+.header__btn:link, .header__btn:active, .header__btn:visited{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.header__your-first-visit{
+  padding-left: 3rem;
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+    z-index: 10;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-x;
+    background-color: #000;
+    color: white;
+    height: 18rem;
+    width: 16rem;
+}
+
+.header__btn--white:link, .header__btn--white:visited{
+    color: #000;
+    background-color: #fff;
+    margin-right: 10rem;
+    width: 70%;
+    height: 2rem;
+    font-size: 12px;
+}

@@ -1,0 +1,52 @@
+
+
+.add{
+    background-image: url(../images/blond.jpg);
+    background-position: top  right -50px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 5rem;
+    margin-top: 7rem;
+    width: 66%;
+    margin: 0 auto;
+    background-color: #b1b4b4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 7rem;
+    padding-bottom: 5rem;
+}
+
+.add__heading{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 3rem;
+}
+
+.add__text{
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+.add__text--num{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.add__text--color{
+    display: block;
+}
+
+.add__btn--black:link, .add__btn--black:active, .add__btn--black:visited{
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+     text-decoration: none;
+    padding: .5rem  0;
+    margin: 2rem 0;
+    width: 20%;
+    position: absolute;
+    top: 16rem;
+
+}
